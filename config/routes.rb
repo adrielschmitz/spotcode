@@ -27,4 +27,6 @@ Rails.application.routes.draw do
       end
     end
   end
+  # constraints para garantir que caso seja adiciona um arquivo e etc, nao seja redirecionado para o home#index
+  get "*path", to: "home#index", :constraints => lambda{|req| req.path !~ /\.(png|jpg|js|css|json)$/ }
 end
