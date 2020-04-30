@@ -1,24 +1,13 @@
-# README
+# SpotCode
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Abaut
+This repository was created for the project SpotCode, avalible by the [OneBitCode](https://onebitcode.com/) company.
+The goal was to create an application PWA, based in Spotify app.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Ruby version
+```2.6.6```
+### System dependencies
+```6.0.2.2```
+### Executing
+Run ```yarn install```, ```bundle install``` for the instalation project dependecies. Before this, execute the rails server
+with the command ```rails s``` and for the webpack server, run the command in a new tab of the terminal ```./bin/webpack-dev-server```.
